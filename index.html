@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Participantes del Torneo</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/media/trophy.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h1>Lista de participantes del Torneo</h1>
+        <strong id="nombreTorneo" class="nombreTorneo">-> Click para elegir el nombre del torneo <-</strong>
+    </header>
+    <main>
+        <section>
+            <div class="carga">
+                <label for="nombreParticipante">Nuevo Participante</label>
+                <input type="text" id="nombreParticipante" placeholder="Nombre">
+                <button id="agregarParticipante">Agregar</button>
+            </div>
+            <p id="errorCarga" class="errorCarga"></p>
+        </section>
+        <section>
+            <div class="lista" id="listaParticipantes">
+                <h2>Participantes</h2>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Giuliano Blengino</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
